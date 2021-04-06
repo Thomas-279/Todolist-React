@@ -1,0 +1,7 @@
+@use 'src/styles/vars' as v;
+
+.app {
+  width: 90%;
+  margin: v.$gutter * 2 auto;
+  max-width: 600px;
+}

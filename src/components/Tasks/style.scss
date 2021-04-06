@@ -1,0 +1,16 @@
+@use 'src/styles/vars' as v;
+
+.task {
+  padding: v.$gutter * 2 v.$gutter * 3;
+  background-color: v.$color-task;
+  border: 1px solid v.$color-task-border;
+  border-radius: 3px;
+  margin-bottom: v.$gutter * 0.5;
+  &--done {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  &__checkbox {
+    margin-right: v.$gutter;
+  }
+}
